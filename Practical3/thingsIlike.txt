@@ -1,13 +1,10 @@
-I like a
-I like b
-I like c
-I like d
-eee
-fff
-ggg
-111
-222
-333
-444
-555
-don't like 123
+I like playing basketball.
+I like playing video games.
+I like drinking milk tea.
+I like eating fried chicken.
+I like watching TV.
+I like singing.
+I like dancing.
+I like reading books.
+I like socializing.
+I don't like playing soccer.
