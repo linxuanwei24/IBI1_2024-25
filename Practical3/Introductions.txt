@@ -2,3 +2,6 @@ Hello, my name is Lin Xuanwei.
 I like drinking tea and eating chocolate biscuits.
 I am enjoying teaching IBI1 in person again 
 I am happy that I can push my repo from Visual Studio Code to GitHub
+
+
+I have learned a lot from today's practical!!!
