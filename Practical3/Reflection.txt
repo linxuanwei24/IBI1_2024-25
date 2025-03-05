@@ -1,0 +1,9 @@
+I am Xuanwei Lin.
+
+During this course, I have learnt version control, how to navigate Unix-like systems and how to write simple programs in Python.
+
+I have also learnt to write careful instructions when communicating online!
+
+I have successfully created my own website.
+
+I have learned a lot from today's practical.
