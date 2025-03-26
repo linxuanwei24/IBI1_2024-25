@@ -1,0 +1,3 @@
+The first two tasks for today's tutorial is fine and interesting
+However, for the third task, I use an easy but repetitive method.
+I learned how to use the random choice function, the plot, and the matrix in numpy.
