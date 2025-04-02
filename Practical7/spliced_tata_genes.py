@@ -1,4 +1,6 @@
 splice = str(input("please input one of three possible splice donor/acceptor combinations (GTAG, GCAG, ATAC):"))
+start = splice[:2]
+stop = splice[2:]
 
 # create an empty file
 if splice == "GTAG":
@@ -26,18 +28,18 @@ for i in data:
     index3 = i.find("\n")
     seq = i[index3 + 1 :] # the sequence
     seq = seq.replace("\n" , "") # the DNA sequence in one row
-    index1 = seq.find(splice)  # the index of the first "GT"
-    index2 = seq.rfind(splice)
+    index1 = seq.find(start)  
+    index2 = seq.rfind(stop)
     # if no donor/acceptor found or only one found
     if index1 == -1 or index2 == -1 or index1 == index2:
         continue
-    spliced_seq = seq[index1 : index2 + 4] # splice the sequence
+    spliced_seq = seq[index1 : index2 + 2] # splice the sequence
     if "TATAAAA" in spliced_seq or "TATAAAT" in spliced_seq or "TATATAA" in spliced_seq or "TATATAT" in spliced_seq:
         index1 = i.find("gene:")
         index2 = i.find("gene_biotype:")
-        gene_name = ">" + i[index1 + 5 : index2 - 1] + ", " # the gene name
+        gene_name = ">" + i[index1 + 5 : index2 - 1] + " " # the gene name
         counter = spliced_seq.count("TATAAAA") + spliced_seq.count("TATAAAT") + spliced_seq.count("TATATAA") + spliced_seq.count("TATATAT")
-        counter = "The number of TATA boxes within spliced genes is: " + str(counter) + "\n"
+        counter = str(counter) + "\n"
         seq = seq + "\n"
         # store the information
         if splice == "GTAG":
