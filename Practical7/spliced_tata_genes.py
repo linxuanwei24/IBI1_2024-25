@@ -14,9 +14,7 @@ elif splice == "ATAC":
 # read the original file
 file = open("Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa" , "r")
 
-all_lines = ''
-for i in file:
-    all_lines += i # turn the whole file to a string
+all_lines = file.read()     # turn the file to a string
 data = all_lines.split(">") # split the string to several elements
 
 # there is a "3-->5" in the original file, so we need to modify what we just split
