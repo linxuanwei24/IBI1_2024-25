@@ -1,0 +1,4 @@
+– What country or countries have recorded a DALYs greater than 650,000 in a single year?
+
+The code is in row 27.
+Rwanda has recorded a DALYs greater than 650,000 in a single year.
