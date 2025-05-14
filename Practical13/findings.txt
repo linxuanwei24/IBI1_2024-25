@@ -1,0 +1,15 @@
+The length of the human SOD2 protein in amino acids is 222.
+
+This protein is found in the mitochondrion matrix.
+
+The	range of percentage	identities in the reported online BLAST results is 58% to 100%.
+
+The percentage of identical amino acids of P04179 and P09671 is 90.1%.
+The percentage of identical amino acids of P04179 and the random protein is 5.0%.
+The percentage of identical amino acids of P09671 and the random protein is 4.1%.
+
+The alignment score of P04179 and P09671 is 1097.0.
+The alignment score of P04179 and the random protein is -252.0.
+The alignment score of P09671 and the random protein is -260.0.
+
+P04179(S0DM_HUMAN) and P09671(S0DM_MOUSE) are most closely related.
