@@ -17,6 +17,6 @@ print(W)
 # Truth Table:
 # X     Y        X and Y
 # True  False    False
-# True  True     Ture
+# True  True     True
 # False True     False
 # False False    False
