@@ -18,6 +18,9 @@ plt.xticks(x , ("JavaScript" , "HTML" , "Python" ,"SQL" , "TypeScript"))
 plt.yticks(np.arange(0 , 101 , 10))
 plt.show()
  
+# input the language
+# if the language is one of the provided language type: print the results.
+# if not, print "Error"
 language = str(input("please input the language:"))
 if language in language_popularity:
     print("The percentage of the developers using" , language , "is" , language_popularity[language] , "%.")
